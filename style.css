@@ -1,0 +1,399 @@
+
+:root{
+    --detalhe: #19e5e5;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+/*----------------------------Section-1-----------------------------*/
+.section-1{
+    width: 25%;
+    margin-right: 5%;
+}
+.logo{
+    width: 220px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.navegation{
+    margin-top: 10px;
+    width: 100%;
+    height: 4.5vh;
+    background-color: var(--detalhe);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    font-weight:600;
+}
+
+.submenu{
+    background-color: #ececfa;
+    display: block;
+    padding: 11px;
+    border-bottom: 1px solid #a7a7ad;
+    padding-left: 10% ;
+    transition: all 0.5s ease;
+}
+
+.submenu:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+
+.section-1 .paragrafo-1{
+    padding: 4% 4%;
+    background-color: #ececfa;
+    margin-top: 9.5%;
+    margin-bottom: 5%;
+    font-weight: 600;
+}
+
+.section-1 .especial fieldset{
+    background-color: #ececfa;
+    border: 1px solid #afafaf;
+    margin-top: 5%;
+    height: 23vh;
+    width: 100%;
+    display: flex;
+}
+
+.section-1 .especial .img-1{
+    width: 120px;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.section-1 .especial .div-1{
+    display: block;
+} 
+
+.section-1 .especial .div-2{
+    position: absolute;
+    display: block;
+    margin-left: 10%;
+    width: 10%;
+    padding-top: 2%;
+}
+
+.especial h3{
+    margin-bottom: 3%;
+    color: #04bfbf;
+}
+.especial p{
+    line-height: 22px;
+}
+
+.especial strike{
+    font-size: 1vw;
+    padding: 4%;       
+}
+
+
+
+/*----------------------------Section-2-----------------------------*/
+.section-2{
+    width: 70%;
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.inputSearch{
+    margin-left: 25%;
+    width: 35%;
+    height: 4vh;
+    border: 1px ridge #d5d5e6;
+}
+
+.inputSearch[placeholder]{
+    padding-left: 1%;
+}
+
+.btnSearch{
+    width: 12%;
+    height: 4vh;
+    background-color: var(--detalhe);
+    border: none;
+    
+}
+
+.call-icon{
+    height: 32px;
+    margin-left: 5%;
+    border-radius: 50%;
+    
+}
+
+.tel-no{
+    font-size: 1.3vw;
+    font-family: fantasy;
+}
+
+nav{
+    margin-top: 10px;
+    width: 100%;
+    height: 5vh;
+   background-color: white;
+   border-radius: 6px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 15px;
+}
+
+.menuItem{
+    margin-top: 3%;
+    padding: 12px 30px;
+    font-family: 'Lobster Two';
+    font-size: 1.2vw;
+    background-color: black;
+    color: white;
+    box-shadow: 10px 7px 30px black;
+    transition: all 0.5s ease;
+}
+
+.menuItem:hover{
+    background-color: #1d9550;
+    box-shadow: none;
+}
+
+.slider{
+    background-color: #ececfa;
+    margin-top: 5%;
+    overflow: hidden;
+    /* width: 100%; */
+    height: 47vh;
+    width: 65vw;
+}
+
+.slider .slides{
+    width: 200vw;
+    height: 50vh;
+    display: flex;
+}
+
+.slider .slide-1{
+    width: 68vw;
+    height: 52vh;
+
+}
+
+.slide-1 .img-1{
+    width: 50%;
+    height: 49vh;
+    display: inline-block;
+    margin-left: -2%;
+}
+
+.slide-1 .img-2{
+    width: 50%;
+    height: 55vh; 
+}
+.slide-1 .img-3{
+     width: 50%;
+     height: 55vh;
+   
+}
+
+.constant{
+    position: absolute;
+    width: 26vw;
+    height: 50vh;
+    margin-left: 36vw;
+}
+
+.constant h1{
+    margin-top: 25%;
+    color: #19e5e5;
+}
+
+.constant p{
+    font-family: 'Pacifico';
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+    line-height: 24px;
+}
+
+.constant .btnshopnow{
+    padding: 3% 5%;
+    color: white;
+    background-color: #313030;
+    border-radius: 10px;
+}
+
+.constant-1{
+    display: flex;
+    width: 65vw;
+    /* width: 100%; */
+    height: 30vh;
+    margin-top: 2.7vh;
+    
+}
+
+
+.constant-1 .inner-1,.inner-2{
+     width: 50%;
+     height: 100%;
+     text-align: right;
+     border: 1px solid #afafaf;
+}
+
+   
+.constant-1 .inner-1 .img-1{
+    width: 63%;
+    height: 40vh;
+    margin-left: 40%;
+    margin-top: -4%;
+}
+
+.constant-1 .inner-2 .img-2{
+    width: 70%;
+    height: 40vh;
+    margin-left: 37%;
+}
+
+.innertitle-1{
+    position: absolute;
+    width: 14vw;
+    height: 30%;
+    text-align: center;
+    margin-left: 1%;
+}
+
+.innertitle-2{
+    position: absolute;
+    width: 20vw;
+    height: 30%;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.innertitle-1, .innertitle-2{
+    margin-top: 1%;
+}
+
+.constant-1 h3{
+    color: #04bfbf;
+    margin-bottom: 10px;
+}
+
+.constant-1 p{
+    font-family: 'Pacifico';
+    line-height: 23px;
+}
+
+.featuredpara{
+    
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    padding: 2vh 63.1vw 2vh 4vh;
+    background-color: #ececfa;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.products{
+    width: 65vw;
+    height: 60vh;
+    display: flex;
+    margin-bottom: 1%;
+}
+fieldset{
+    width: 20vw;
+    padding-left: 2vw;
+    margin-top: 4vh;
+    border: 1px solid #afafaf;
+}
+
+legend{
+    padding: 1% 3% 1% 3%;
+    background-color: black;
+    color: white;
+}
+
+.products .col-1, .col-2{
+    margin-right: 3vw;
+}
+
+
+.products .col-1 .img1{
+    width: 17vw;
+    height: 33vh;
+}
+
+.products .col-2 .img2{
+    width: 17vw;
+    height: 33vh;
+}
+.products .col-3 .img3{
+    width: 17vw;
+    height: 33vh;
+}
+.products h3{
+    color: #04bfbf;
+    padding-top: 2vh;
+}
+
+.products strike{
+    font-size: 1vw;
+    padding-left: 3%;
+}
+
+.footer{
+    bottom: 0px;
+    width: 100vw;
+    height: 20vh;
+    padding-top: 10%;
+    background-color: #ececfa;
+}
+
+.footer .outer{
+    background-color: #ececfa;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    text-align: center;
+}
+
+.footer .inner1{
+    width: 20%;
+    height: 50%;
+    display: inline-block;
+    margin-left: 8%;
+    border-right: 1px solid #afafaf;
+}
+
+.footer .inner2{
+    width: 20%;
+    height: 50%;
+    display: inline-block;
+    margin-left: 3%;
+    border-right: 1px solid #afafaf;
+}
+
+.footer a{
+    display: block;
+    padding: 2%;
+    color: #04bfbf;
+}
+.footer .copyright{
+    background-color: #ececfa;
+}
+
+.footer .copyright{
+    text-align: center;
+}
